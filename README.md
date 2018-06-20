@@ -2,6 +2,7 @@
 APK download can be found in the RELEASE tab.
 https://github.com/TanapTheTimid/DistanceMeterOreo/releases
 
+![Math Demo](https://github.com/TanapTheTimid/Distance-Height-Meter-Oreo/blob/master/photo_2018-06-20_16-35-50.jpg)
 
 This android app has two functions:
 1. estimates the HEIGHT of an object by marking its base and top points.
