@@ -36,6 +36,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="If you know your height, you can use that as the phone height and hold the phone up to your forehead."/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Icon image from icons8.com (Creative Common License)"/>
     </LinearLayout>
 
 </RelativeLayout>
