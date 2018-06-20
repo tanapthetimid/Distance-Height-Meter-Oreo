@@ -1,5 +1,6 @@
 # DistanceMeterOreo
 APK download can be found in the RELEASE tab.
+https://github.com/TanapTheTimid/DistanceMeterOreo/releases
 
 This android app estimates the GROUND distance from the user/phone to the point marked by the camera cross-hair.
 
