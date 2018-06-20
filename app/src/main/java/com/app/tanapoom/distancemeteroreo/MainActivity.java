@@ -37,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
         if(view.getId() == R.id.open1) {
             Intent intent = new Intent(this, CameraActivity.class);
             startActivity(intent);
+        }else if(view.getId() == R.id.open2) {
+            Intent intent = new Intent(this, CameraActivityHeight.class);
+            startActivity(intent);
         }
-
     }
 }

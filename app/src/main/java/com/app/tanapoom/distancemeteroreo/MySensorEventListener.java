@@ -37,6 +37,14 @@ public class MySensorEventListener implements SensorEventListener{
         return pitch;
     }
 
+    public float getPitchQuadrantRightLeft(){
+        return mRotationMatrix[7];
+    }
+
+    public float getPitchQuadrantUpDown(){
+        return mRotationMatrix[8];
+    }
+
     public float getYaw(){
         float yaw = (float)Math.atan(
                 (-mRotationMatrix[6])

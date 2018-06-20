@@ -11,20 +11,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/open1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onLaunchClick"
-            android:text="Estimate Distance"/>
-
-
-        <TextView
-            android:layout_marginTop="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="This app will attempt to estimate the ground distance between the location of the phone (the person holding the phone) and the point marked by the cross-hair."/>
-
         <TextView
             android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
@@ -36,6 +22,40 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="If you know your height, you can use that as the phone height and hold the phone up to your forehead."/>
+
+
+        <Button
+            android:id="@+id/open2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onLaunchClick"
+            android:text="Estimate Height"/>
+
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This function will attempt to estimate the height of an object, using the user's known height of phone."/>
+
+
+
+        <Button
+            android:layout_marginTop="32dp"
+            android:id="@+id/open1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onLaunchClick"
+            android:text="Estimate Distance"/>
+
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This function will attempt to estimate the ground distance between the location of the phone (the person holding the phone) and the point marked by the cross-hair."/>
+
+
 
         <TextView
             android:layout_marginTop="8dp"
