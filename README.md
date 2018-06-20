@@ -15,3 +15,5 @@ This app is useful for estimating a person's height or measuring a room's dimens
 As this app uses the phone's tilt sensors and an estimate of the phone's height, there will be a degree of error depending on the phone sensor's accuracy and the accuracy of the estimated phone height.
 
 Preliminary testing shows that this app is accurate to +/- 0.1 meter when the phone height is somewhat precise.
+
+![Screenshot](https://github.com/TanapTheTimid/Distance-Height-Meter-Oreo/blob/master/photo_2018-06-20_16-42-21.jpg)
