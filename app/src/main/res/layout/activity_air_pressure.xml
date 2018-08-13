@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AirPressureActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instruction: Press Mark bottom or Mark top to collect data. When collecting data, please hold the device still while the device is reading the barometer for 3 seconds."/>
+
+        <Button
+            android:id="@+id/apb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Mark Bottom"/>
+
+        <Button
+            android:id="@+id/apb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Mark Top"/>
+
+        <Button
+            android:id="@+id/apb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Calculate"/>
+
+        <TextView
+            android:id="@+id/height_text_apb"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="height:"/>
+
+        <Button
+            android:id="@+id/apb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="calibrate"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALIBRATION HEIGHT in METERS"/>
+
+        <EditText
+            android:id="@+id/calibration_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOW TO USE:"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To calibrate, use a known height as reference (like a meter stick). Mark the bottom and the top of the reference object. Type the height of reference object into the text field and press calibrate."/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To measure height, mark the bottom and top, and then press calculate"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

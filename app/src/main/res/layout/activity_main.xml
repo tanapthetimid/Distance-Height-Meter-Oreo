@@ -56,6 +56,18 @@
             android:text="This function will attempt to estimate the ground distance between the location of the phone (the person holding the phone) and the point marked by the cross-hair."/>
 
 
+        <TextView
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USING AIR PRESSURE to measure HEIGHT."/>
+
+        <Button
+            android:id="@+id/open3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onLaunchClick"
+            android:text="Using Air Pressure for Height"/>
 
         <TextView
             android:layout_marginTop="8dp"

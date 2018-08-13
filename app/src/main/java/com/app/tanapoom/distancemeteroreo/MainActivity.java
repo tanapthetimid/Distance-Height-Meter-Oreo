@@ -41,5 +41,9 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, CameraActivityHeight.class);
             startActivity(intent);
         }
+        else if(view.getId() == R.id.open3) {
+            Intent intent = new Intent(this, AirPressureActivity.class);
+            startActivity(intent);
+        }
     }
 }
